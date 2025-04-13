@@ -1,0 +1,138 @@
+*{
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+._1seccont h6{
+    color: #2B63D9;
+}
+._h1cont span {
+    color: black;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+@media (max-width: 576px) {
+    ._h1cont span {
+        font-size: 1.8rem; 
+        line-height: 1.3;
+        text-align: center; 
+    }
+}
+
+
+
+.section-title {
+    position: relative;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    width: 60%;
+    height: 4px;
+    background-color: #D3D3D3; 
+    border-radius: 2px;
+}
+
+
+._2secfcontainer{
+    background-color: #2B63D9;
+}
+._2secf{
+    background-color: #2B63D9;
+}
+._2secfcont h2{
+    color: white;
+    line-height: 1.5;
+}
+._2secfcont span {
+    color: white;
+    line-height: 1.5;
+}
+.mailsubbtn{
+    background-color: #437EF7;
+    color: white;
+}
+._3sec{
+    background-color: #2B63D9;
+}
+._3seccont h5 ,._h2cont h2{
+    color: aliceblue;
+}
+._3seccont a{
+    background-color: white;
+    border-radius: 15px;
+}
+.SignUpbtn{
+    border: none;
+    color: #2B63D9 ;
+}
+.LogInbtn{
+    background-color: #2B63D9;
+    color: white;
+    border: none;
+}
+.LogInbtn:hover{
+    background-color: transparent;
+    color: #2B63D9;
+}
+.SignUpbtn:hover{
+    background-color: transparent;
+    color: #2B63D9;
+}
+.sign{
+    padding: 15px;
+    border-radius: 15px;
+}
+.foot{
+    background-color: #151B28;
+    color: #A5ACBA;
+    line-height: 2;
+}
+.footleft img{
+    width: 150px;
+    margin-bottom: 25px;
+}
+.footbtn input{
+    background-color: #2E3545;
+    border: none;
+}
+.footbtn input::placeholder{
+    color: aliceblue;
+}
+footer .row > div {
+    font-size: small;
+}
+footer a{
+    color:#A5ACBA;
+}
+footer h5{
+    color: white;
+}
+.footer-bottom {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    color: #A5ACBA;
+    font-size: 14px;
+}
+
+.footer-bottom::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 1px;
+    background-color: #2E3545;
+}
